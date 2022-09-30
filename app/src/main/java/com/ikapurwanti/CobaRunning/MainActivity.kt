@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,6 +19,7 @@ class MainActivity : AppCompatActivity() {
         pindah.setOnClickListener {
             val a = Intent(this,HomeActivity::class.java)
             startActivity(a)
+            Toast.makeText(this,"Selamat Datang di Bopu Tech",Toast.LENGTH_SHORT).show()
         }
 
         val pindah1 = findViewById<TextView>(R.id.tvDaftar)
