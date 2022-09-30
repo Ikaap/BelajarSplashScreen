@@ -22,6 +22,7 @@
         android:layout_alignParentRight="true"/>
 
     <EditText
+        android:id="@+id/etEmail"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,6 +30,7 @@
         android:textSize="15sp"/>
 
     <EditText
+        android:id="@+id/etPassword"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

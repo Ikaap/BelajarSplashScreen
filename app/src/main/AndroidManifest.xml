@@ -8,7 +8,7 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/bopu"
         android:label="BopuTech"
-        android:roundIcon="@mipmap/bopu"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CobaRunning"
         tools:targetApi="31">
